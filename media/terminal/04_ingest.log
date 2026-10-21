@@ -1,0 +1,23 @@
+sreemanti@MacBook-Pro team-knowledge-base % python -m kb.ingest
+drive: 10 documents, 31 chunks
+jira: 8 documents, 8 chunks
+{'documents': 18, 'chunks': 39, 'acl_rows': 27} 
+
+  Appraisal Cycle Guidelines 2026                             group:hr, group:leadership
+  Board update Q3 FY27                                        group:leadership
+  Dealer Price List FY2026-27                                 group:leadership, group:sales
+  Field Service Visit Checklist                               group:engineering
+  IT: How to get VPN access                                   domain:vardhanpumps.in
+  Leave and Holiday Policy 2026                               domain:vardhanpumps.in
+  Postmortem: VS-200 mechanical seal failures (Sep 2026)      group:engineering, group:leadership
+  Salary Bands 2026 (confidential)                            group:hr
+  Shree Agro: VS-200 fleet deal notes                         group:sales, user:vikram.vardhan@vardhanpumps.in
+  VS-200 Service Manual: Troubleshooting                      domain:vardhanpumps.in
+  HR-31: Grievance: overtime for field engineers              group:hr
+  HR-32: Offer approval: senior service engineer above band   group:hr
+  SALES-210: Shree Agro: 40 x VS-200 fleet order              group:leadership, group:sales
+  SALES-211: Deccan Sugar: annual maintenance contract renew  group:leadership, group:sales
+  SERV-101: Shree Agro: seal leaks on 6 VS-200 units          group:engineering, group:leadership
+  SERV-102: VP-100 rattling noise at Deccan Sugar             group:engineering, group:leadership
+  SERV-103: Update commissioning checklist after seal failur  group:engineering, group:leadership
+  SERV-104: Technician injury at Nashik site                  group:leadership

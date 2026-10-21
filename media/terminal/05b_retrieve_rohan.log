@@ -1,0 +1,9 @@
+sreemanti@MacBook-Pro team-knowledge-base % python -m kb.ask --retrieve-only --email rohan.mehta@vardhanpumps.in --groups sales What's the latest on the Shree Agro VS-200 order?
+user: rohan.mehta@vardhanpumps.in  groups: ['sales']
+
+  0.811  SALES-210: Shree Agro: 40 x VS-200 fleet order
+  0.781  Shree Agro: VS-200 fleet deal notes
+  0.762  Shree Agro: VS-200 fleet deal notes
+  0.750  Shree Agro: VS-200 fleet deal notes
+
+denied: ['drive:1sealPostmortem', 'jira:SERV-101', 'drive:1boardQ3']

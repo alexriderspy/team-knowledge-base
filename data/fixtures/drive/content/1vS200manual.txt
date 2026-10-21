@@ -1,0 +1,13 @@
+# VS-200 Service Manual: Troubleshooting
+
+## Pump runs but delivers low flow
+Check the suction strainer first; a blocked strainer is the cause in most field visits. Then check the impeller for wear. If the flow is still below 80 percent of the rated 42 cubic metres per hour, measure the suction lift; above 6 metres the VS-200 will cavitate.
+
+## Water leaking at the shaft
+A leak at the shaft almost always means the mechanical seal has failed. Replace the seal kit (part VS2-SK-11). Do not tighten the gland, the VS-200 has no packing gland. Running the pump dry for more than 30 seconds damages the seal faces.
+
+## Grinding or rattling noise
+A grinding noise points to bearing wear or cavitation. Check the bearing temperature: above 80 degrees Celsius, replace both bearings (part VS2-BR-04). A rattling noise like gravel is cavitation; reduce the suction lift or open the suction valve fully.
+
+## Motor trips on overload
+Check the supply voltage. The VS-200 motor needs 415 V three phase, plus or minus 10 percent. A single phasing fault trips the overload within seconds.

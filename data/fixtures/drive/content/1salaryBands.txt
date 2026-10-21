@@ -1,0 +1,12 @@
+# Salary Bands 2026 (confidential)
+
+## Engineering
+Service engineer (E1): Rs 4.8 to 6.5 lakh per year.
+Senior service engineer (E2): Rs 7.2 to 9.8 lakh per year.
+Service lead (E3): Rs 11 to 14.5 lakh per year.
+
+## Sales
+Sales executive (S1): Rs 5 to 7 lakh fixed plus incentive.
+Area sales manager (S2): Rs 9 to 13 lakh fixed plus incentive.
+
+Bands are reviewed every April. Offers outside the band need the managing director's approval.

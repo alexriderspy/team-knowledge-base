@@ -1,0 +1,8 @@
+sreemanti@MacBook-Pro team-knowledge-base % python -m kb.ask --email asha.kulkarni@vardhanpumps.in --groups engineering What's the latest on the Shree Agro VS-200 order?
+user: asha.kulkarni@vardhanpumps.in  groups: ['engineering']
+
+Six VS-200 units installed at Shree Agro, Ahmednagar, are leaking at the shaft. A replacement visit is scheduled for 28 October with seal kits from lot ST-0926. [2] 
+
+  [2] SERV-101: Shree Agro: seal leaks on 6 VS-200 units  https://vardhanpumps.atlassian.net/browse/SERV-101
+
+denied (logged, not shown to the user): ['jira:SALES-210', 'drive:1shreeAgro']

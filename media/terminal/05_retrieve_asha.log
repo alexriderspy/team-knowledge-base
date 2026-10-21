@@ -1,0 +1,9 @@
+sreemanti@MacBook-Pro team-knowledge-base % python -m kb.ask --retrieve-only --email asha.kulkarni@vardhanpumps.in --groups engineering What's the latest on the Shree Agro VS-200 order?
+user: asha.kulkarni@vardhanpumps.in  groups: ['engineering']
+
+  0.708  Postmortem: VS-200 mechanical seal failures (Sep 2026)
+  0.700  SERV-101: Shree Agro: seal leaks on 6 VS-200 units
+  0.624  Postmortem: VS-200 mechanical seal failures (Sep 2026)
+  0.557  SERV-102: VP-100 rattling noise at Deccan Sugar
+
+denied: ['jira:SALES-210', 'drive:1shreeAgro']

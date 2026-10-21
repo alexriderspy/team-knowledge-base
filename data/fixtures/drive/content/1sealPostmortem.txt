@@ -1,0 +1,13 @@
+# Postmortem: VS-200 mechanical seal failures, September 2026
+
+## What happened
+Between 12 August and 20 September, 9 VS-200 units failed at the shaft seal within 30 days of installation, 6 of them at Shree Agro, Ahmednagar.
+
+## Root cause
+A batch of seal kits from our supplier SealTech (lot ST-0826) had carbon faces that were 0.3 mm thinner than the drawing. Combined with dry running during commissioning, the faces cracked.
+
+## Fix
+All units with lot ST-0826 get a new seal kit from lot ST-0926, which passed inspection. Commissioning checklist now requires priming the pump before first start. The Shree Agro replacements are scheduled for 28 October.
+
+## Owner
+Asha Kulkarni, service engineering.

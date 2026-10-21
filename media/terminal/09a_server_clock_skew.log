@@ -1,0 +1,112 @@
+sreemanti@MacBook-Pro team-knowledge-base % python -m uvicorn app.main:app --port 62781
+INFO:     Started server process [65401]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:62781 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51570 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51574 - "POST /api/ask HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51581 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51581 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51581 - "GET /callback?state=yhHUCKNHdQlu2edDLv6d1g&session_state=ba39efdb-201b-413c-949f-459e8b6c7dba&iss=http%3A%2F%2Flocalhost%3A62780%2Frealms%2Fvardhan&code=7d59da53-49ba-4726-ba97-c487579e5a90.ba39efdb-201b-413c-949f-459e8b6c7dba.70174792-1d6d-4203-8bfe-b67aad013f5c HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51581 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51672 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51672 - "GET /callback?state=v0TISRWj9f0V5CeBRqkjjQ&session_state=4122ed2c-aa2d-4945-bc30-f987a92e82b0&iss=http%3A%2F%2Flocalhost%3A62780%2Frealms%2Fvardhan&code=bad84671-6b05-4779-a36e-dc629b60de88.4122ed2c-aa2d-4945-bc30-f987a92e82b0.70174792-1d6d-4203-8bfe-b67aad013f5c HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51672 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51733 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51733 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51733 - "GET /callback?state=d2luQfYUYDgvxTDEDNuEzA&session_state=ea6e43f4-7115-4f00-9dcd-dd3f41a5341e&iss=http%3A%2F%2Flocalhost%3A62780%2Frealms%2Fvardhan&code=9361f577-65b2-4d6c-babf-6ca2b5525e38.ea6e43f4-7115-4f00-9dcd-dd3f41a5341e.70174792-1d6d-4203-8bfe-b67aad013f5c HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51733 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51733 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51757 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51757 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51757 - "GET /callback?state=ascWI8DOZy6UkfCWdc0dTw&session_state=fefc6eff-5d30-44b1-b89e-45fe62835251&iss=http%3A%2F%2Flocalhost%3A62780%2Frealms%2Fvardhan&code=f1ebf180-33f0-4318-9454-f9da71495fc7.fefc6eff-5d30-44b1-b89e-45fe62835251.70174792-1d6d-4203-8bfe-b67aad013f5c HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51757 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51757 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51779 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51779 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51779 - "GET /callback?state=YAScB87nBPLnlOqZ7MLxHQ&session_state=cac6d200-ac21-4d57-aa86-5e07cd165af5&iss=http%3A%2F%2Flocalhost%3A62780%2Frealms%2Fvardhan&code=726b4cfe-57d0-4944-a515-b0f925a8240d.cac6d200-ac21-4d57-aa86-5e07cd165af5.70174792-1d6d-4203-8bfe-b67aad013f5c HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 422, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1194, in __call__
+    await super().__call__(scope, receive, send)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/starlette/applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/starlette/routing.py", line 678, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2811, in app
+    await route.handle(scope, receive, send)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1330, in handle
+    await super().handle(scope, receive, send)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/starlette/routing.py", line 284, in handle
+    await self.app(scope, receive, send)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/fastapi/routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/fastapi/routing.py", line 152, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/fastapi/routing.py", line 745, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/fastapi/routing.py", line 374, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sreemanti/Documents/Youtube and Insta/videos/team-knowledge-base/project/app/main.py", line 56, in callback
+    oidc.verify(tokens["access_token"])
+  File "/Users/sreemanti/Documents/Youtube and Insta/videos/team-knowledge-base/project/app/auth.py", line 55, in verify
+    return jwt.decode(token, key, algorithms=["RS256"], audience=self.s.oidc_client_id,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/jwt/api_jwt.py", line 370, in decode
+    decoded = self.decode_complete(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/jwt/api_jwt.py", line 277, in decode_complete
+    self._validate_claims(
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/jwt/api_jwt.py", line 404, in _validate_claims
+    self._validate_iat(payload, now, leeway)
+  File "/private/tmp/claude-502/-Users-sreemanti-Documents-Youtube-and-Insta/4b838eec-63ff-459a-94fc-a5c45df85245/scratchpad/venv/lib/python3.12/site-packages/jwt/api_jwt.py", line 483, in _validate_iat
+    raise ImmatureSignatureError("The token is not yet valid (iat)")
+jwt.exceptions.ImmatureSignatureError: The token is not yet valid (iat)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [65401]

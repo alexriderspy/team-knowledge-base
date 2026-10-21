@@ -1,0 +1,8 @@
+sreemanti@MacBook-Pro team-knowledge-base % curl -s -i -X POST localhost:62781/api/ask -H content-type: application/json -d {"question": "What are the salary bands?"}
+HTTP/1.1 401 Unauthorized
+date: Wed, 21 Oct 2026 01:35:01 GMT
+server: uvicorn
+content-length: 26
+content-type: application/json
+
+{"detail":"not logged in"}

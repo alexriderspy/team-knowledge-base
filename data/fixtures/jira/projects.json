@@ -1,0 +1,22 @@
+{
+  "SERV": {
+    "name": "Field Service",
+    "browse_groups": [
+      "engineering",
+      "leadership"
+    ]
+  },
+  "SALES": {
+    "name": "Sales Pipeline",
+    "browse_groups": [
+      "sales",
+      "leadership"
+    ]
+  },
+  "HR": {
+    "name": "HR Cases",
+    "browse_groups": [
+      "hr"
+    ]
+  }
+}

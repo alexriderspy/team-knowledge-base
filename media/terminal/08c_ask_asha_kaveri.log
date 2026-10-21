@@ -1,0 +1,7 @@
+sreemanti@MacBook-Pro team-knowledge-base % python -m kb.ask --email asha.kulkarni@vardhanpumps.in --groups engineering What is Project Kaveri? Which company are we buying?
+user: asha.kulkarni@vardhanpumps.in  groups: ['engineering']
+
+I couldn't find that in the documents you have access to. 
+
+
+denied (logged, not shown to the user): ['drive:1boardQ3']

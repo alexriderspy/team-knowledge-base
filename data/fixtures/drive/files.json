@@ -1,0 +1,213 @@
+{
+  "files": [
+    {
+      "id": "1vS200manual",
+      "name": "VS-200 Service Manual: Troubleshooting",
+      "mimeType": "application/vnd.google-apps.document",
+      "modifiedTime": "2026-10-15T09:30:00.000Z",
+      "owners": [
+        {
+          "emailAddress": "asha.kulkarni@vardhanpumps.in"
+        }
+      ],
+      "webViewLink": "https://docs.google.com/document/d/1vS200manual/edit",
+      "permissions": [
+        {
+          "type": "domain",
+          "domain": "vardhanpumps.in",
+          "role": "reader"
+        }
+      ]
+    },
+    {
+      "id": "1leavePolicy",
+      "name": "Leave and Holiday Policy 2026",
+      "mimeType": "application/vnd.google-apps.document",
+      "modifiedTime": "2026-10-15T09:30:00.000Z",
+      "owners": [
+        {
+          "emailAddress": "meera.iyer@vardhanpumps.in"
+        }
+      ],
+      "webViewLink": "https://docs.google.com/document/d/1leavePolicy/edit",
+      "permissions": [
+        {
+          "type": "domain",
+          "domain": "vardhanpumps.in",
+          "role": "reader"
+        }
+      ]
+    },
+    {
+      "id": "1vpnHowto",
+      "name": "IT: How to get VPN access",
+      "mimeType": "application/vnd.google-apps.document",
+      "modifiedTime": "2026-10-15T09:30:00.000Z",
+      "owners": [
+        {
+          "emailAddress": "priya.nair@vardhanpumps.in"
+        }
+      ],
+      "webViewLink": "https://docs.google.com/document/d/1vpnHowto/edit",
+      "permissions": [
+        {
+          "type": "anyone",
+          "role": "reader"
+        }
+      ]
+    },
+    {
+      "id": "1dealerPrice",
+      "name": "Dealer Price List FY2026-27",
+      "mimeType": "application/vnd.google-apps.document",
+      "modifiedTime": "2026-10-15T09:30:00.000Z",
+      "owners": [
+        {
+          "emailAddress": "rohan.mehta@vardhanpumps.in"
+        }
+      ],
+      "webViewLink": "https://docs.google.com/document/d/1dealerPrice/edit",
+      "permissions": [
+        {
+          "type": "group",
+          "emailAddress": "sales@vardhanpumps.in",
+          "role": "reader"
+        },
+        {
+          "type": "group",
+          "emailAddress": "leadership@vardhanpumps.in",
+          "role": "reader"
+        }
+      ]
+    },
+    {
+      "id": "1shreeAgro",
+      "name": "Shree Agro: VS-200 fleet deal notes",
+      "mimeType": "application/vnd.google-apps.document",
+      "modifiedTime": "2026-10-15T09:30:00.000Z",
+      "owners": [
+        {
+          "emailAddress": "rohan.mehta@vardhanpumps.in"
+        }
+      ],
+      "webViewLink": "https://docs.google.com/document/d/1shreeAgro/edit",
+      "permissions": [
+        {
+          "type": "group",
+          "emailAddress": "sales@vardhanpumps.in",
+          "role": "reader"
+        },
+        {
+          "type": "user",
+          "emailAddress": "vikram.vardhan@vardhanpumps.in",
+          "role": "reader"
+        }
+      ]
+    },
+    {
+      "id": "1salaryBands",
+      "name": "Salary Bands 2026 (confidential)",
+      "mimeType": "application/vnd.google-apps.document",
+      "modifiedTime": "2026-10-15T09:30:00.000Z",
+      "owners": [
+        {
+          "emailAddress": "meera.iyer@vardhanpumps.in"
+        }
+      ],
+      "webViewLink": "https://docs.google.com/document/d/1salaryBands/edit",
+      "permissions": [
+        {
+          "type": "group",
+          "emailAddress": "hr@vardhanpumps.in",
+          "role": "reader"
+        }
+      ]
+    },
+    {
+      "id": "1appraisal",
+      "name": "Appraisal Cycle Guidelines 2026",
+      "mimeType": "application/vnd.google-apps.document",
+      "modifiedTime": "2026-10-15T09:30:00.000Z",
+      "owners": [
+        {
+          "emailAddress": "meera.iyer@vardhanpumps.in"
+        }
+      ],
+      "webViewLink": "https://docs.google.com/document/d/1appraisal/edit",
+      "permissions": [
+        {
+          "type": "group",
+          "emailAddress": "hr@vardhanpumps.in",
+          "role": "reader"
+        },
+        {
+          "type": "group",
+          "emailAddress": "leadership@vardhanpumps.in",
+          "role": "reader"
+        }
+      ]
+    },
+    {
+      "id": "1sealPostmortem",
+      "name": "Postmortem: VS-200 mechanical seal failures (Sep 2026)",
+      "mimeType": "application/vnd.google-apps.document",
+      "modifiedTime": "2026-10-15T09:30:00.000Z",
+      "owners": [
+        {
+          "emailAddress": "asha.kulkarni@vardhanpumps.in"
+        }
+      ],
+      "webViewLink": "https://docs.google.com/document/d/1sealPostmortem/edit",
+      "permissions": [
+        {
+          "type": "group",
+          "emailAddress": "engineering@vardhanpumps.in",
+          "role": "reader"
+        },
+        {
+          "type": "group",
+          "emailAddress": "leadership@vardhanpumps.in",
+          "role": "reader"
+        }
+      ]
+    },
+    {
+      "id": "1boardQ3",
+      "name": "Board update Q3 FY27",
+      "mimeType": "application/vnd.google-apps.document",
+      "modifiedTime": "2026-10-15T09:30:00.000Z",
+      "owners": [
+        {
+          "emailAddress": "vikram.vardhan@vardhanpumps.in"
+        }
+      ],
+      "webViewLink": "https://docs.google.com/document/d/1boardQ3/edit",
+      "permissions": [
+        {
+          "type": "group",
+          "emailAddress": "leadership@vardhanpumps.in",
+          "role": "reader"
+        }
+      ]
+    },
+    {
+      "id": "1fieldChecklist",
+      "name": "Field Service Visit Checklist",
+      "mimeType": "application/vnd.google-apps.document",
+      "modifiedTime": "2026-10-15T09:30:00.000Z",
+      "owners": [
+        {
+          "emailAddress": "asha.kulkarni@vardhanpumps.in"
+        }
+      ],
+      "webViewLink": "https://docs.google.com/document/d/1fieldChecklist/edit",
+      "permissions": [
+        {
+          "type": "group",
+          "emailAddress": "engineering@vardhanpumps.in",
+          "role": "reader"
+        }
+      ]
+    }
+  ]
+}

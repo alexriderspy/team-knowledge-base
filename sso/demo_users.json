@@ -1,0 +1,11 @@
+{
+  "_note": "Demo accounts for the local Keycloak only. Never reuse these anywhere.",
+  "groups": ["engineering", "sales", "hr", "leadership", "security-admins"],
+  "users": [
+    {"username": "asha", "first": "Asha", "last": "Kulkarni", "email": "asha.kulkarni@vardhanpumps.in", "groups": ["engineering"], "password": "asha-demo-7341"},
+    {"username": "rohan", "first": "Rohan", "last": "Mehta", "email": "rohan.mehta@vardhanpumps.in", "groups": ["sales"], "password": "rohan-demo-2958"},
+    {"username": "meera", "first": "Meera", "last": "Iyer", "email": "meera.iyer@vardhanpumps.in", "groups": ["hr"], "password": "meera-demo-6612"},
+    {"username": "vikram", "first": "Vikram", "last": "Vardhan", "email": "vikram.vardhan@vardhanpumps.in", "groups": ["leadership"], "password": "vikram-demo-4087"},
+    {"username": "priya", "first": "Priya", "last": "Nair", "email": "priya.nair@vardhanpumps.in", "groups": ["security-admins"], "password": "priya-demo-5523"}
+  ]
+}

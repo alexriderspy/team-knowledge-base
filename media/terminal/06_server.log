@@ -1,0 +1,31 @@
+sreemanti@MacBook-Pro team-knowledge-base % python -m uvicorn app.main:app --port 62781
+INFO:     Started server process [71563]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:62781 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51894 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51898 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51898 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51898 - "GET /callback?state=cH5FF7b4clO_nkP9CaQY0Q&session_state=3041ac62-6938-413f-943a-cfd66efbd96a&iss=http%3A%2F%2Flocalhost%3A62780%2Frealms%2Fvardhan&code=2202055a-7fad-4e53-ba77-05bae8246487.3041ac62-6938-413f-943a-cfd66efbd96a.70174792-1d6d-4203-8bfe-b67aad013f5c HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51898 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51898 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51925 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51925 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51925 - "GET /callback?state=59oxgRevN1_AC4-dTlaa0A&session_state=69459a29-9537-4957-915f-3b4cbe591083&iss=http%3A%2F%2Flocalhost%3A62780%2Frealms%2Fvardhan&code=815c2ad5-f6a9-4456-a30c-d5dff6d03ed0.69459a29-9537-4957-915f-3b4cbe591083.70174792-1d6d-4203-8bfe-b67aad013f5c HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51925 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51925 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51949 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51949 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51949 - "GET /callback?state=k56Mgw2OWRbRRGQ0XcvdWw&session_state=20b8677d-6913-40a2-83ba-914decd82671&iss=http%3A%2F%2Flocalhost%3A62780%2Frealms%2Fvardhan&code=0b06e347-1751-4c8b-a9c8-7bc96e0326be.20b8677d-6913-40a2-83ba-914decd82671.70174792-1d6d-4203-8bfe-b67aad013f5c HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51949 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51949 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51975 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51975 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51975 - "GET /callback?state=tCv6C07D-54UATVUP_63qQ&session_state=85790437-3a62-4a00-a05f-8a9f5b019d5e&iss=http%3A%2F%2Flocalhost%3A62780%2Frealms%2Fvardhan&code=ff800f61-018e-4e40-90d2-50139bff0eec.85790437-3a62-4a00-a05f-8a9f5b019d5e.70174792-1d6d-4203-8bfe-b67aad013f5c HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51975 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51975 - "POST /api/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51998 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51998 - "GET /login HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51998 - "GET /callback?state=JEVMkAq-F3Vw0XR6wStD7Q&session_state=b609b09b-e038-488e-b9ca-97337e9a6f25&iss=http%3A%2F%2Flocalhost%3A62780%2Frealms%2Fvardhan&code=94b90ac7-55f9-48c7-adb9-b5e3c3f27354.b609b09b-e038-488e-b9ca-97337e9a6f25.70174792-1d6d-4203-8bfe-b67aad013f5c HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51998 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51998 - "GET /audit HTTP/1.1" 200 OK

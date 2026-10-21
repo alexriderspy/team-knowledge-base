@@ -1,0 +1,127 @@
+{
+  "issues": [
+    {
+      "key": "SERV-101",
+      "fields": {
+        "summary": "Shree Agro: seal leaks on 6 VS-200 units",
+        "description": "Six VS-200 units installed at Shree Agro, Ahmednagar in August are leaking at the shaft. All six have seal kits from lot ST-0826. Replacement visit booked for 28 October with seal kits from lot ST-0926. Assigned to Asha Kulkarni.",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "key": "SERV"
+        },
+        "updated": "2026-10-16T11:00:00.000+0530",
+        "security": null
+      }
+    },
+    {
+      "key": "SERV-102",
+      "fields": {
+        "summary": "VP-100 rattling noise at Deccan Sugar",
+        "description": "Customer reports a rattling noise like gravel from two VP-100 pumps. Suction lift measured at 7.2 metres, above the limit. Recommended moving the pumps closer to the sump.",
+        "status": {
+          "name": "Open"
+        },
+        "project": {
+          "key": "SERV"
+        },
+        "updated": "2026-10-16T11:00:00.000+0530",
+        "security": null
+      }
+    },
+    {
+      "key": "SERV-103",
+      "fields": {
+        "summary": "Update commissioning checklist after seal failures",
+        "description": "Added a mandatory priming step before first start and a 30 second dry run limit to the commissioning checklist. Linked to the September seal postmortem.",
+        "status": {
+          "name": "Done"
+        },
+        "project": {
+          "key": "SERV"
+        },
+        "updated": "2026-10-16T11:00:00.000+0530",
+        "security": null
+      }
+    },
+    {
+      "key": "SERV-104",
+      "fields": {
+        "summary": "Technician injury at Nashik site",
+        "description": "Technician Sunil More cut his hand on an impeller edge on 9 October at the Nashik site. First aid given, two stitches, back at work on 11 October. Gloves were not being worn. Safety committee to review the PPE rule.",
+        "status": {
+          "name": "Open"
+        },
+        "project": {
+          "key": "SERV"
+        },
+        "updated": "2026-10-16T11:00:00.000+0530",
+        "security": {
+          "id": "10001",
+          "name": "Safety committee"
+        }
+      }
+    },
+    {
+      "key": "SALES-210",
+      "fields": {
+        "summary": "Shree Agro: 40 x VS-200 fleet order",
+        "description": "Order confirmed for 40 VS-200 units at 11 percent discount. First lot of 24 units ships 15 November, second lot of 16 units on 20 December. The customer is unhappy about seal leaks on the first units and wants them fixed before the second lot.",
+        "status": {
+          "name": "Won"
+        },
+        "project": {
+          "key": "SALES"
+        },
+        "updated": "2026-10-16T11:00:00.000+0530",
+        "security": null
+      }
+    },
+    {
+      "key": "SALES-211",
+      "fields": {
+        "summary": "Deccan Sugar: annual maintenance contract renewal",
+        "description": "AMC for 18 pumps up for renewal on 1 December. Current value Rs 4,20,000 per year. Customer is asking for faster response times, 24 hours instead of 48.",
+        "status": {
+          "name": "Negotiation"
+        },
+        "project": {
+          "key": "SALES"
+        },
+        "updated": "2026-10-16T11:00:00.000+0530",
+        "security": null
+      }
+    },
+    {
+      "key": "HR-31",
+      "fields": {
+        "summary": "Grievance: overtime for field engineers",
+        "description": "Three field engineers raised a grievance that weekend call-outs in September were not paid as overtime. HR is checking the attendance records against the job cards. Confidential.",
+        "status": {
+          "name": "Under review"
+        },
+        "project": {
+          "key": "HR"
+        },
+        "updated": "2026-10-16T11:00:00.000+0530",
+        "security": null
+      }
+    },
+    {
+      "key": "HR-32",
+      "fields": {
+        "summary": "Offer approval: senior service engineer above band",
+        "description": "Offer of Rs 10.4 lakh for a senior service engineer candidate, above the E2 band maximum. Approved by the managing director on 7 October.",
+        "status": {
+          "name": "Approved"
+        },
+        "project": {
+          "key": "HR"
+        },
+        "updated": "2026-10-16T11:00:00.000+0530",
+        "security": null
+      }
+    }
+  ]
+}

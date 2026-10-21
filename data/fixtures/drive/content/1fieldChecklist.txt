@@ -1,0 +1,3 @@
+# Field Service Visit Checklist
+
+Before leaving: carry the seal kit, both bearings and the vibration meter. On site: check voltage, prime the pump, never dry run it, record the bearing temperature after 15 minutes. Before leaving site: get the customer's signature on the job card and upload a photo of the nameplate.

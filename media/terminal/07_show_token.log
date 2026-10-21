@@ -1,0 +1,18 @@
+sreemanti@MacBook-Pro team-knowledge-base % python demo/show_token.py asha
+token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwi...  (1455 characters)
+
+header: {'alg': 'RS256', 'typ': 'JWT', 'kid': 'gaS0JvSnPTYfyxsnGbefSQpDSfHEviDV2LCYJXUNfqM'}
+{
+  "iss": "http://localhost:62780/realms/vardhan",
+  "aud": [
+    "kb-app",
+    "account"
+  ],
+  "azp": "kb-app",
+  "exp": 1792548308,
+  "email": "asha.kulkarni@vardhanpumps.in",
+  "email_verified": true,
+  "groups": [
+    "engineering"
+  ]
+}

@@ -1,0 +1,14 @@
+sreemanti@MacBook-Pro team-knowledge-base % python sso/setup_realm.py
+realm vardhan                            created
+group engineering                        created
+group sales                              created
+group hr                                 created
+group leadership                         created
+group security-admins                    created
+client kb-app                            created
+user asha ['engineering']                created
+user rohan ['sales']                     created
+user meera ['hr']                        created
+user vikram ['leadership']               created
+user priya ['security-admins']           created
+client secret written to .env

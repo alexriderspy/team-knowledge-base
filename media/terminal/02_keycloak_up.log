@@ -1,0 +1,7 @@
+sreemanti@MacBook-Pro team-knowledge-base % docker compose up -d
+ Network team-knowledge-base_default  Creating
+ Network team-knowledge-base_default  Created
+ Container tkb-keycloak  Creating
+ Container tkb-keycloak  Created
+ Container tkb-keycloak  Starting
+ Container tkb-keycloak  Started

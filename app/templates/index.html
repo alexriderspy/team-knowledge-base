@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Vardhan Pumps · Knowledge base</title>
+<style>
+  body { font-family: -apple-system, "Inter", sans-serif; background: #f6f7f9; color: #1d2330; margin: 0; }
+  header { background: #13315c; color: #fff; padding: 18px 40px; display: flex; justify-content: space-between; align-items: center; }
+  header b { font-size: 20px; }
+  .who { font-size: 15px; opacity: .9; }
+  .who a { color: #9cc3ff; margin-left: 14px; }
+  .chip { background: #24497d; border-radius: 12px; padding: 3px 10px; margin-left: 6px; font-size: 13px; }
+  main { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+  form { display: flex; gap: 10px; }
+  input { flex: 1; font-size: 18px; padding: 14px 16px; border: 1px solid #c9d0db; border-radius: 10px; }
+  button { font-size: 17px; padding: 0 26px; border: 0; border-radius: 10px; background: #1f6feb; color: #fff; cursor: pointer; }
+  .card { background: #fff; border: 1px solid #e1e5eb; border-radius: 12px; padding: 22px 26px; margin-top: 26px; font-size: 18px; line-height: 1.55; }
+  .src { margin-top: 16px; font-size: 15px; }
+  .src a { color: #1f6feb; text-decoration: none; display: block; margin-top: 6px; }
+  .muted { color: #6b7385; font-size: 15px; }
+</style>
+</head>
+<body>
+<header>
+  <b>Vardhan Pumps · Knowledge base</b>
+  <span class="who">{{ user.email }}{% for g in user.groups|sort %}<span class="chip">{{ g }}</span>{% endfor %}
+    {% if is_auditor %}<a href="/audit">Audit log</a>{% endif %}<a href="/logout">Log out</a></span>
+</header>
+<main>
+  <form id="f"><input id="q" placeholder="Ask anything about Drive docs and Jira issues" autofocus><button>Ask</button></form>
+  <p class="muted">Answers only use documents you already have access to in Drive and Jira.</p>
+  <div id="out"></div>
+</main>
+<script>
+const f = document.getElementById("f"), out = document.getElementById("out");
+f.onsubmit = async (e) => {
+  e.preventDefault();
+  out.innerHTML = '<div class="card muted">Searching…</div>';
+  const r = await fetch("/api/ask", {method: "POST", headers: {"content-type": "application/json"},
+                                     body: JSON.stringify({question: document.getElementById("q").value})});
+  const data = await r.json();
+  const card = document.createElement("div"); card.className = "card";
+  card.textContent = data.answer ?? data.detail;
+  const src = document.createElement("div"); src.className = "src";
+  for (const s of data.sources ?? []) {
+    const a = document.createElement("a"); a.href = s.url; a.textContent = `[${s.n}] ${s.title}`; src.appendChild(a);
+  }
+  card.appendChild(src); out.replaceChildren(card);
+};
+</script>
+</body>
+</html>

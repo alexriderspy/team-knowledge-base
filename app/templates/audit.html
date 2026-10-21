@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Audit log · Vardhan Pumps knowledge base</title>
+<style>
+  body { font-family: -apple-system, "Inter", sans-serif; background: #f6f7f9; color: #1d2330; margin: 0; }
+  header { background: #13315c; color: #fff; padding: 18px 40px; font-size: 20px; font-weight: 600; }
+  header a { color: #9cc3ff; font-size: 15px; font-weight: 400; float: right; }
+  table { border-collapse: collapse; margin: 30px 40px; background: #fff; font-size: 14px; }
+  th, td { border: 1px solid #e1e5eb; padding: 8px 10px; text-align: left; vertical-align: top; max-width: 360px; }
+  th { background: #eef1f5; }
+  .denied { color: #b42318; }
+</style>
+</head>
+<body>
+<header>Audit log <a href="/">Back</a></header>
+<table>
+  <tr><th>Time (UTC)</th><th>User</th><th>Groups</th><th>Question</th><th>Retrieved</th><th>Denied</th><th>Cited</th><th>ms</th></tr>
+  {% for r in rows %}
+  <tr><td>{{ r.ts }}</td><td>{{ r.user }}</td><td>{{ r.groups }}</td><td>{{ r.question }}</td>
+      <td>{{ r.retrieved }}</td><td class="denied">{{ r.denied }}</td><td>{{ r.cited }}</td><td>{{ r.ms }}</td></tr>
+  {% endfor %}
+</table>
+</body>
+</html>
